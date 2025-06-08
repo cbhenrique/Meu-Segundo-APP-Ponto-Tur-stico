@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Pontos Turísticos",
+    "slug": "tourist-spots-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A90E2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Este app precisa acessar a câmera para tirar fotos dos pontos turísticos.",
+        "NSLocationWhenInUseUsageDescription": "Este app precisa acessar sua localização para encontrar pontos turísticos próximos."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4A90E2"
+      },
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Este app precisa acessar sua localização para encontrar pontos turísticos próximos."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Este app precisa acessar a câmera para tirar fotos dos pontos turísticos."
+        }
+      ]
+    ]
+  }
+}
