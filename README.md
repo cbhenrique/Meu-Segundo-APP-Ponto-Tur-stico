@@ -2,22 +2,7 @@
 
 Um aplicativo React Native que encontra pontos turísticos próximos usando geolocalização e permite tirar fotos dos locais visitados.
 
-## 🚀 Como Configurar
-
-### 1. Pré-requisitos
-- Node.js instalado
-- Expo CLI instalado globalmente
-
-```bash
-npm install -g @expo/cli
 ```
-
-### 2. Criar o Projeto
-```bash
-npx create-expo-app TouristSpotsApp
-cd TouristSpotsApp
-```
-
 ### 3. Estrutura de Pastas
 Crie a seguinte estrutura no seu projeto:
 
@@ -33,19 +18,6 @@ TouristSpotsApp/
 │   └── TouristSpotCard.js
 └── services/
     └── api.js
-```
-
-### 4. Instalar Dependências
-```bash
-expo install expo-location expo-camera expo-image-picker @expo/vector-icons
-```
-
-### 5. Copiar os Arquivos
-Copie o conteúdo de cada arquivo fornecido acima para os respectivos arquivos no seu projeto.
-
-### 6. Executar o Projeto
-```bash
-expo start
 ```
 
 ## 📁 Estrutura dos Arquivos
