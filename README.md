@@ -76,7 +76,7 @@ Para adicionar novos pontos turísticos, edite o array `touristSpots` em `servic
 - Implementar navegação entre telas
 - Adicionar mapa interativo
 
----
+
 Estrutura Final do Projeto
 TouristSpotsApp/
 ├── 📄 App.js                    # Componente principal
