@@ -6,7 +6,7 @@ Um aplicativo React Native que encontra pontos turísticos próximos usando geol
 ### 3. Estrutura de Pastas
 Crie a seguinte estrutura no seu projeto:
 
-```
+
 TouristSpotsApp/
 ├── App.js
 ├── package.json
@@ -18,7 +18,7 @@ TouristSpotsApp/
 │   └── TouristSpotCard.js
 └── services/
     └── api.js
-```
+
 
 ## 📁 Estrutura dos Arquivos
 
