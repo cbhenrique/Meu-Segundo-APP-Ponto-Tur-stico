@@ -1,4 +1,4 @@
-# 📱 App Pontos Turísticos
+# App Pontos Turísticos
 
 Um aplicativo React Native que encontra pontos turísticos próximos usando geolocalização e permite tirar fotos dos locais visitados.
 
@@ -20,7 +20,7 @@ TouristSpotsApp/
     └── api.js
 
 
-## 📁 Estrutura dos Arquivos
+## Estrutura dos Arquivos
 
 ### **Arquivo Raiz**
 - `App.js` - Componente principal do aplicativo
@@ -36,7 +36,7 @@ TouristSpotsApp/
 ### **Pasta `services/`**
 - `api.js` - API simulada com dados dos pontos turísticos
 
-## 🔧 Funcionalidades
+## Funcionalidades
 
 - **Geolocalização**: Encontra sua localização atual
 - **API Simulada**: Busca pontos turísticos próximos
@@ -45,14 +45,14 @@ TouristSpotsApp/
 - **Categorização**: Pontos organizados por tipo
 - **Distâncias**: Calcula distância até cada ponto
 
-## 📱 Como Testar
+## Como Testar
 
 1. **No Simulador**: Use o Expo Go no seu celular
 2. **Escaneie o QR Code** que aparece no terminal
 3. **Permita as Permissões** de localização e câmera
 4. **Explore os Pontos** turísticos próximos
 
-## 🛠️ Personalização
+## Personalização
 
 Para adicionar novos pontos turísticos, edite o array `touristSpots` em `services/api.js`:
 
@@ -69,7 +69,7 @@ Para adicionar novos pontos turísticos, edite o array `touristSpots` em `servic
 }
 ```
 
-## 📝 Próximos Passos
+## Próximos Passos
 
 - Conectar a uma API real
 - Adicionar sistema de favoritos
